@@ -1,0 +1,17 @@
+{
+  "name": "large-scale-csv-export",
+  "version": "1.0.0",
+  "description": "Large-scale CSV export service with async streaming and progress tracking",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "pg": "^8.13.0",
+    "pg-cursor": "^2.12.1",
+    "uuid": "^10.0.0"
+  }
+}
